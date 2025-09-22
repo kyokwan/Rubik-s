@@ -29,6 +29,3 @@
     -   `NumPy`
 -   **Algorithm**:
     -   `Kociemba`
-## 📄 라이선스 (License)
-
-Distributed under the MIT License. See `LICENSE` for more information.
