@@ -173,7 +173,7 @@ def read_and_visualize(image_path, outdir="cube_debug", size=300, patch_ratio=0.
         p = Minv @ vec
         p /= (p[2] + 1e-9)
         return int(round(p[0])), int(round(p[1]))
-
+#
     for r, c, (cx1,cy1,cx2,cy2) in sample_boxes:
         tl = warp_to_orig((cx1,cy1))
         br = warp_to_orig((cx2,cy2))
